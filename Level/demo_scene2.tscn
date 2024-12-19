@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://poiriar4ohsx"]
+[gd_scene load_steps=15 format=3 uid="uid://poiriar4ohsx"]
 
 [ext_resource type="Script" path="res://Level/demo_scene_2.gd" id="1_lnd7k"]
 [ext_resource type="PackedScene" uid="uid://cci31kuqdnklx" path="res://Puzzle/Gates/gate.tscn" id="1_yhqt0"]
@@ -11,6 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://byxcjqdl02iud" path="res://Puzzle/Green Power/green_reciever.tscn" id="9_njg6f"]
 [ext_resource type="PackedScene" uid="uid://dbidsa4wtpsi8" path="res://Puzzle/Purple Pad/purple_panel.tscn" id="10_mu4cn"]
 [ext_resource type="PackedScene" uid="uid://dohcfwfjkeqvu" path="res://Puzzle/Scanners/PPC4scanner.tscn" id="11_j1tno"]
+[ext_resource type="PackedScene" uid="uid://f01w307u3b8a" path="res://Player/player.tscn" id="12_c8lgq"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0xgbu"]
 albedo_color = Color(0, 0, 0, 1)
@@ -252,6 +253,17 @@ transform = Transform3D(-0.5, 0, -0.866025, 0, 1, 0, 0.866025, 0, -0.5, -34.3961
 [node name="PPC4scanner" parent="." instance=ExtResource("11_j1tno")]
 transform = Transform3D(-1.77198e-08, 0, -0.405381, 0, 0.405381, 0, 0.405381, 0, -1.77198e-08, -20.1183, 8.17861, 10.5422)
 powered = false
+
+[node name="Player" parent="." instance=ExtResource("12_c8lgq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.1551, 6.46298, -8.46541)
+start_with_gas_mask = true
+grabpack_version = 1
+has_flashlight = true
+flashlight_flicker = true
+red_hand = true
+flare_hand = true
+dash_hand = true
+start_with_playwatch = true
 
 [connection signal="pressed" from="Puzzles/Button5" to="." method="_on_button_5_pressed"]
 [connection signal="power_recieved" from="power_reciever" to="." method="_on_power_reciever_power_recieved"]
