@@ -1,4 +1,4 @@
-[gd_scene load_steps=188 format=4 uid="uid://b1synj2xgx754"]
+[gd_scene load_steps=189 format=4 uid="uid://b1synj2xgx754"]
 
 [ext_resource type="Script" path="res://Level/demo_scene.gd" id="1_o3h6j"]
 [ext_resource type="PackedScene" uid="uid://f01w307u3b8a" path="res://Player/player.tscn" id="1_y6ybj"]
@@ -525,6 +525,9 @@ albedo_texture = ExtResource("48_um044")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bh5ma"]
 albedo_color = Color(0.845132, 0.77766, 0.628692, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wwpn0"]
+albedo_color = Color(0.374139, 0.374139, 0.374139, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uv00s"]
 albedo_color = Color(0, 0, 0.941176, 1)
@@ -5152,6 +5155,12 @@ use_collision = true
 size = Vector3(29.1094, 5.80637, 1.14817)
 material = SubResource("StandardMaterial3D_bpvac")
 
+[node name="CSGBox3D343" type="CSGBox3D" parent="NavigationRegion3D"]
+transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, 274.912, 8.56959, -214.526)
+use_collision = true
+size = Vector3(1.19727, 5.80637, 111.905)
+material = SubResource("StandardMaterial3D_bpvac")
+
 [node name="CSGBox3D337" type="CSGBox3D" parent="NavigationRegion3D"]
 transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, 238.053, 8.56959, -231.674)
 use_collision = true
@@ -5171,10 +5180,28 @@ size = Vector3(15.7399, 5.80637, 1.98235)
 material = SubResource("StandardMaterial3D_bpvac")
 
 [node name="CSGBox3D340" type="CSGBox3D" parent="NavigationRegion3D"]
-transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, 254.338, 8.56959, -197.573)
+transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, 244.542, 8.56959, -197.573)
 use_collision = true
-size = Vector3(41.253, 5.80637, 1.98235)
+size = Vector3(21.6596, 5.80637, 1.98235)
 material = SubResource("StandardMaterial3D_bpvac")
+
+[node name="CSGBox3D346" type="CSGBox3D" parent="NavigationRegion3D"]
+transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, 266.441, 8.56959, -197.573)
+use_collision = true
+size = Vector3(17.1408, 5.80637, 1.98235)
+material = SubResource("StandardMaterial3D_bpvac")
+
+[node name="CSGBox3D344" type="CSGBox3D" parent="NavigationRegion3D"]
+transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, 254.338, 6.06469, -214.796)
+use_collision = true
+size = Vector3(41.253, 0.796576, 113.021)
+material = SubResource("StandardMaterial3D_wwpn0")
+
+[node name="CSGBox3D345" type="CSGBox3D" parent="NavigationRegion3D"]
+transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, 260.337, 6.06469, -193.082)
+use_collision = true
+size = Vector3(29.2549, 0.796576, 33.9237)
+material = SubResource("StandardMaterial3D_wwpn0")
 
 [node name="CSGBox3D341" type="CSGBox3D" parent="NavigationRegion3D"]
 transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, 252.654, 8.56959, -201.063)
