@@ -3975,7 +3975,7 @@ disable_after_use = false
 shape = SubResource("BoxShape3D_n55g7")
 
 [node name="Player" parent="." instance=ExtResource("1_y6ybj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 244.12, 8.22965, -222.586)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 244.12, 8.22965, -266.663)
 grabpack_version = 1
 has_flashlight = true
 flashlight_flicker = true
@@ -5588,22 +5588,10 @@ use_collision = true
 size = Vector3(58.3269, 9.88935, 1.56827)
 material = SubResource("StandardMaterial3D_a20eb")
 
-[node name="CSGBox3D322" type="CSGBox3D" parent="NavigationRegion3D"]
-transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -5.96046e-08, 0, 0.309656, 229.831, 6.90858, -275.023)
-use_collision = true
-size = Vector3(20.3652, 2.4843, 1.56827)
-material = SubResource("StandardMaterial3D_a20eb")
-
-[node name="CSGBox3D323" type="CSGBox3D" parent="NavigationRegion3D"]
-transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -5.96046e-08, 0, 0.309656, 251.939, 6.90858, -275.023)
-use_collision = true
-size = Vector3(20.5779, 2.4843, 1.56827)
-material = SubResource("StandardMaterial3D_a20eb")
-
 [node name="CSGBox3D324" type="CSGBox3D" parent="NavigationRegion3D"]
-transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -5.96046e-08, 0, 0.309656, 279.41, 6.90858, -275.023)
+transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -5.96046e-08, 0, 0.309656, 258.414, 6.90858, -275.023)
 use_collision = true
-size = Vector3(35.54, 2.4843, 1.56827)
+size = Vector3(77.5325, 2.4843, 1.56827)
 material = SubResource("StandardMaterial3D_a20eb")
 
 [node name="CSGBox3D320" type="CSGBox3D" parent="NavigationRegion3D"]
