@@ -7,8 +7,8 @@
 [ext_resource type="PackedScene" uid="uid://73lqqn24ybx2" path="res://Puzzle/Puzzle_Basic/power_reciever.tscn" id="5_nwqrt"]
 [ext_resource type="PackedScene" uid="uid://0jm4505rp5fs" path="res://Puzzle/Puzzle_Basic/power_source.tscn" id="6_wirdl"]
 [ext_resource type="PackedScene" uid="uid://d1v0gfvuxa0ba" path="res://Puzzle/Puzzle_Basic/puzzle_pole.tscn" id="7_0lm52"]
+[ext_resource type="PackedScene" uid="uid://btpvhk4vvli6c" path="res://Puzzle/Scanners/WhiteScanner.tscn" id="10_m5moq"]
 [ext_resource type="PackedScene" uid="uid://dbidsa4wtpsi8" path="res://Puzzle/Purple Pad/purple_panel.tscn" id="10_mu4cn"]
-[ext_resource type="PackedScene" uid="uid://dohcfwfjkeqvu" path="res://Puzzle/Scanners/PPC4scanner.tscn" id="11_j1tno"]
 [ext_resource type="PackedScene" uid="uid://f01w307u3b8a" path="res://Player/player.tscn" id="12_c8lgq"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_mc8bv"]
@@ -272,9 +272,8 @@ launch_height = 20.0
 transform = Transform3D(-0.5, 0, -0.866025, 0, 1, 0, 0.866025, 0, -0.5, -34.3961, 6.46298, 10.1058)
 launch_height = 20.0
 
-[node name="PPC4scanner" parent="Puzzles" instance=ExtResource("11_j1tno")]
-transform = Transform3D(-1.77198e-08, 0, -0.405381, 0, 0.405381, 0, 0.405381, 0, -1.77198e-08, -20.1183, 8.17861, 10.5422)
-powered = false
+[node name="WhiteScanner" parent="." instance=ExtResource("10_m5moq")]
+transform = Transform3D(-7.48147e-08, 0, -1.71156, 0, 1.71156, 0, 1.71156, 0, -7.48147e-08, -20.1183, 7.78285, 10.6207)
 
 [connection signal="pressed" from="Puzzles/Button5" to="." method="_on_button_5_pressed"]
 [connection signal="power_recieved" from="Puzzles/power_reciever" to="." method="_on_power_reciever_power_recieved"]
