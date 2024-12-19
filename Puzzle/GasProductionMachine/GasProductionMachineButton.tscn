@@ -88,7 +88,7 @@ _data = {
 size = Vector3(0.472656, 0.352295, 0.427734)
 
 [node name="SM_GasproductionMachine_Button_A" type="Node3D"]
-transform = Transform3D(18.0659, 0, 0, 0, -2.94331e-06, 18.0659, 0, -18.0659, -2.94331e-06, 0, 0, -79.1236)
+transform = Transform3D(1.04204, 0, 0, 0, -1.6977e-07, 1.04204, 0, -1.04204, -1.6977e-07, 0, 0, -79.1236)
 script = ExtResource("1_n6yq5")
 
 [node name="SM_GasproductionMachine_Button_A_MI_GasProductionMachine_001_1" type="MeshInstance3D" parent="."]
