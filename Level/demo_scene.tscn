@@ -1,4 +1,4 @@
-[gd_scene load_steps=189 format=4 uid="uid://b1synj2xgx754"]
+[gd_scene load_steps=190 format=4 uid="uid://b1synj2xgx754"]
 
 [ext_resource type="Script" path="res://Level/demo_scene.gd" id="1_o3h6j"]
 [ext_resource type="PackedScene" uid="uid://f01w307u3b8a" path="res://Player/player.tscn" id="1_y6ybj"]
@@ -62,6 +62,7 @@
 [ext_resource type="PackedScene" uid="uid://psn0dvixn0td" path="res://Puzzle/camera/camera.tscn" id="56_d46rs"]
 [ext_resource type="PackedScene" uid="uid://ctrwj6jfm28h8" path="res://Puzzle/Gates/sci-fi_gate__detailing_01_xyz_school_hw/futuredoor.tscn" id="60_2bbvn"]
 [ext_resource type="PackedScene" uid="uid://cp4gngkdjk5de" path="res://amusement_park_game_attractions_pack/AmusementPark.tscn" id="62_sbjen"]
+[ext_resource type="PackedScene" uid="uid://xkhcrp175ic0" path="res://Puzzle/GasProductionMachine/scene.tscn" id="63_ev8ru"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rpms1"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -5401,10 +5402,22 @@ use_collision = true
 size = Vector3(19.6215, 0.484701, 184.037)
 material = SubResource("StandardMaterial3D_bpvac")
 
-[node name="CSGBox3D326" type="CSGBox3D" parent="NavigationRegion3D"]
-transform = Transform3D(-0.866025, 0, 0.154828, 0, 1, 0, -0.5, 0, -0.26817, 242.906, 15.1546, -240.056)
+[node name="CSGBox3D361" type="CSGBox3D" parent="NavigationRegion3D"]
+transform = Transform3D(-4.37114e-08, 0, 0.309656, 0, 1, 0, -1, 0, -1.35355e-08, 238.042, 15.1546, -239.587)
 use_collision = true
-size = Vector3(18.82, 0.484701, 66.4127)
+size = Vector3(11.5935, 0.484701, 18.5669)
+material = SubResource("StandardMaterial3D_bpvac")
+
+[node name="CSGBox3D362" type="CSGBox3D" parent="NavigationRegion3D"]
+transform = Transform3D(-4.37114e-08, 0, 0.309656, 0, 1, 0, -1, 0, -1.35355e-08, 235.359, 15.1546, -237.637)
+use_collision = true
+size = Vector3(7.69322, 0.484701, 14.157)
+material = SubResource("StandardMaterial3D_bpvac")
+
+[node name="CSGBox3D326" type="CSGBox3D" parent="NavigationRegion3D"]
+transform = Transform3D(-0.866025, 0, 0.154828, 0, 1, 0, -0.5, 0, -0.26817, 236.473, 15.1546, -243.769)
+use_collision = true
+size = Vector3(3.96471, 0.484701, 66.4127)
 material = SubResource("StandardMaterial3D_bpvac")
 
 [node name="CSGBox3D305" type="CSGBox3D" parent="NavigationRegion3D"]
@@ -10066,6 +10079,9 @@ transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 241.61
 [node name="Gate24" parent="." instance=ExtResource("16_58b6u")]
 transform = Transform3D(0.583149, 0, -2.13163e-14, 0, 1, 0, 1.24306e-14, 0, 1, 256.586, 6.46298, -197.526)
 colour = 1
+
+[node name="Sketchfab_Scene2" parent="." instance=ExtResource("63_ev8ru")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 267.431, 6.46297, -215.933)
 
 [connection signal="pressed" from="decor/Large Button" to="." method="_on_large_button_pressed"]
 [connection signal="released" from="decor/Large Button" to="." method="_on_large_button_released"]
