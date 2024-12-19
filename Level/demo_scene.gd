@@ -69,7 +69,10 @@ extends Node3D
 @onready var vs2 = $"Node3D/Purple Scanner3"
 @onready var gs1 = $"Node3D/Green Scanner3"
 @onready var futr1 = $"future door"
-
+@onready var spot1 = $light/SpotLight3D28
+@onready var spot2 = $light/SpotLight3D27
+@onready var spot3 = $light/SpotLight3D29
+@onready var spot4 = $light/SpotLight3D30
 
 
 var gate_openned = false
@@ -345,3 +348,7 @@ func _on_white_scanner_4_scan_complete():
 
 func _on_white_scanner_5_scan_complete():
 	futr1._open()
+	spot1.spot_range = 0
+	spot2.spot_range = 0
+	spot3.spot_range = 0
+	spot4.spot_range = 0
