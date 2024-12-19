@@ -57,7 +57,7 @@ shadow_enabled = true
 environment = SubResource("Environment_rget5")
 
 [node name="Player" parent="." instance=ExtResource("12_c8lgq")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.1551, 6.46298, -8.46541)
+transform = Transform3D(-0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, -0.707107, -16.1551, 6.46298, -8.46541)
 start_with_gas_mask = true
 grabpack_version = 1
 has_flashlight = true
@@ -124,9 +124,21 @@ size = Vector3(17.2061, 14.9187, 1.98235)
 material = SubResource("StandardMaterial3D_0xgbu")
 
 [node name="CSGBox3D412" type="CSGBox3D" parent="CSGBox"]
-transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, -17.9734, 13.1257, -20.825)
+transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, -8.92976, 13.1257, -20.825)
 use_collision = true
-size = Vector3(41.0572, 14.9187, 1.98235)
+size = Vector3(22.9698, 14.9187, 1.98235)
+material = SubResource("StandardMaterial3D_0xgbu")
+
+[node name="CSGBox3D414" type="CSGBox3D" parent="CSGBox"]
+transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, -22.44, 15.9761, -20.825)
+use_collision = true
+size = Vector3(4.74997, 9.21795, 1.98235)
+material = SubResource("StandardMaterial3D_0xgbu")
+
+[node name="CSGBox3D413" type="CSGBox3D" parent="CSGBox"]
+transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, -31.7812, 13.1257, -20.825)
+use_collision = true
+size = Vector3(14.53, 14.9187, 1.98235)
 material = SubResource("StandardMaterial3D_0xgbu")
 
 [node name="CSGBox3D405" type="CSGBox3D" parent="CSGBox"]
@@ -405,6 +417,24 @@ material = SubResource("StandardMaterial3D_rpdxf")
 transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, -2.77417, 22.127, -25.1592)
 use_collision = true
 size = Vector3(37.2257, 32.9213, 1.56827)
+material = SubResource("StandardMaterial3D_rpdxf")
+
+[node name="CSGBox3D330" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, -20.2122, 8.97534, -23.0315)
+use_collision = true
+size = Vector3(0.428603, 5.55266, 15.3105)
+material = SubResource("StandardMaterial3D_rpdxf")
+
+[node name="CSGBox3D332" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, -22.408, 11.5566, -23.0315)
+use_collision = true
+size = Vector3(4.82026, 0.39018, 15.3105)
+material = SubResource("StandardMaterial3D_rpdxf")
+
+[node name="CSGBox3D331" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 1.49012e-08, 0, 1, 0, -2.98023e-08, 0, 0.309656, -24.708, 9.01977, -23.0315)
+use_collision = true
+size = Vector3(0.428603, 5.46379, 15.3105)
 material = SubResource("StandardMaterial3D_rpdxf")
 
 [node name="CSGBox3D329" type="CSGBox3D" parent="."]
