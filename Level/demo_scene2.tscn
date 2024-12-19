@@ -274,6 +274,7 @@ launch_height = 20.0
 
 [node name="WhiteScanner" parent="." instance=ExtResource("10_m5moq")]
 transform = Transform3D(-7.48147e-08, 0, -1.71156, 0, 1.71156, 0, 1.71156, 0, -7.48147e-08, -20.1183, 7.78285, 10.6207)
+powered = false
 
 [connection signal="pressed" from="Puzzles/Button5" to="." method="_on_button_5_pressed"]
 [connection signal="power_recieved" from="Puzzles/power_reciever" to="." method="_on_power_reciever_power_recieved"]
