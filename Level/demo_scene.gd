@@ -73,7 +73,7 @@ extends Node3D
 @onready var spot2 = $light/SpotLight3D27
 @onready var spot3 = $light/SpotLight3D29
 @onready var spot4 = $light/SpotLight3D30
-
+@onready var furt2 = $"future door2"
 
 var gate_openned = false
 var puzzle1_1 = false
@@ -352,3 +352,7 @@ func _on_white_scanner_5_scan_complete():
 	spot2.spot_range = 0
 	spot3.spot_range = 0
 	spot4.spot_range = 0
+	Game.set_objective("Power on the Amusement Park", 5)
+
+func _on_green_scanner_6_scan_complete():
+	furt2._open()

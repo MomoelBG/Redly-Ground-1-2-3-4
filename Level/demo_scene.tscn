@@ -71,7 +71,7 @@ ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
 sky_material = SubResource("ProceduralSkyMaterial_rpms1")
 
 [sub_resource type="Environment" id="Environment_j0f0b"]
-background_mode = 5
+background_mode = 2
 sky = SubResource("Sky_ccxnr")
 tonemap_mode = 2
 
@@ -5213,9 +5213,9 @@ size = Vector3(19.6215, 0.484701, 184.037)
 material = SubResource("StandardMaterial3D_bpvac")
 
 [node name="CSGBox3D326" type="CSGBox3D" parent="NavigationRegion3D"]
-transform = Transform3D(-0.866025, 0, 0.154828, 0, 1, 0, -0.5, 0, -0.26817, 242.276, 15.1546, -238.965)
+transform = Transform3D(-0.866025, 0, 0.154828, 0, 1, 0, -0.5, 0, -0.26817, 242.906, 15.1546, -240.056)
 use_collision = true
-size = Vector3(18.82, 0.484701, 74.5442)
+size = Vector3(18.82, 0.484701, 66.4127)
 material = SubResource("StandardMaterial3D_bpvac")
 
 [node name="CSGBox3D305" type="CSGBox3D" parent="NavigationRegion3D"]
@@ -9867,6 +9867,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 287.319, 6.48694, -300.135)
 [node name="future door2" parent="." instance=ExtResource("60_2bbvn")]
 transform = Transform3D(-39.0277, 0, -3.41191e-06, 0, 39.0277, 0, 3.41191e-06, 0, -39.0277, 244.34, 6.48693, -234.562)
 
+[node name="Green Scanner3" parent="." instance=ExtResource("48_7kjdm")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 241.612, 7.87007, -234.568)
+
 [connection signal="pressed" from="decor/Large Button" to="." method="_on_large_button_pressed"]
 [connection signal="released" from="decor/Large Button" to="." method="_on_large_button_released"]
 [connection signal="area_entered" from="puzzle/gate_closer" to="." method="_on_gate_closer_area_entered"]
@@ -9947,3 +9950,4 @@ transform = Transform3D(-39.0277, 0, -3.41191e-06, 0, 39.0277, 0, 3.41191e-06, 0
 [connection signal="scan_complete" from="Node3D/Green Scanner3" to="." method="_on_green_scanner_5_scan_complete"]
 [connection signal="pressed" from="Button3" to="ascenseur/AnimationPlayer" method="_on_button_3_pressed"]
 [connection signal="scan_complete" from="WhiteScanner2" to="." method="_on_white_scanner_5_scan_complete"]
+[connection signal="scan_complete" from="Green Scanner3" to="." method="_on_green_scanner_6_scan_complete"]
