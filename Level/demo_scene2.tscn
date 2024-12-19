@@ -1,9 +1,14 @@
-[gd_scene load_steps=7 format=3 uid="uid://poiriar4ohsx"]
+[gd_scene load_steps=12 format=3 uid="uid://poiriar4ohsx"]
 
 [ext_resource type="Script" path="res://Level/demo_scene_2.gd" id="1_lnd7k"]
 [ext_resource type="PackedScene" uid="uid://cci31kuqdnklx" path="res://Puzzle/Gates/gate.tscn" id="1_yhqt0"]
 [ext_resource type="PackedScene" uid="uid://do6337i7ubv7n" path="res://Puzzle/Button/button.tscn" id="2_g820g"]
 [ext_resource type="PackedScene" uid="uid://xkhcrp175ic0" path="res://Puzzle/GasProductionMachine/gazproductmachine.tscn" id="3_d037l"]
+[ext_resource type="PackedScene" uid="uid://73lqqn24ybx2" path="res://Puzzle/Puzzle_Basic/power_reciever.tscn" id="5_nwqrt"]
+[ext_resource type="PackedScene" uid="uid://0jm4505rp5fs" path="res://Puzzle/Puzzle_Basic/power_source.tscn" id="6_wirdl"]
+[ext_resource type="PackedScene" uid="uid://d1v0gfvuxa0ba" path="res://Puzzle/Puzzle_Basic/puzzle_pole.tscn" id="7_0lm52"]
+[ext_resource type="PackedScene" uid="uid://bechbsgfmthff" path="res://Puzzle/Green Power/green_source.tscn" id="8_n427e"]
+[ext_resource type="PackedScene" uid="uid://byxcjqdl02iud" path="res://Puzzle/Green Power/green_reciever.tscn" id="9_njg6f"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0xgbu"]
 albedo_color = Color(0, 0, 0, 1)
@@ -214,4 +219,28 @@ transform = Transform3D(0.901115, -0.43358, 0, 0.43358, 0.901115, 0, 0, 0, 1, -9
 [node name="Sketchfab_Scene" parent="Puzzles" instance=ExtResource("3_d037l")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -5.03259, 6.46298, -5.00207)
 
+[node name="power_reciever" parent="." instance=ExtResource("5_nwqrt")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -25.2281, 8.97365, 13.03)
+required_power_poles = 2
+play_complete_sound = true
+
+[node name="power_source" parent="." instance=ExtResource("6_wirdl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.9805, 8.7539, -4.45817)
+can_power = false
+
+[node name="puzzle_pole" parent="." instance=ExtResource("7_0lm52")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.7349, 6.46298, -1.52447)
+
+[node name="puzzle_pole2" parent="." instance=ExtResource("7_0lm52")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.2486, 6.46298, 10.9649)
+
+[node name="green_source" parent="." instance=ExtResource("8_n427e")]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -23.5454, 8.7173, -1.74706)
+
+[node name="green_reciever" parent="." instance=ExtResource("9_njg6f")]
+transform = Transform3D(-1, 0, 2.98023e-08, 0, 1, 0, -2.98023e-08, 0, -1, -34.1707, 8.71128, 13.03)
+play_complete_sound = true
+
 [connection signal="pressed" from="Puzzles/Button5" to="." method="_on_button_5_pressed"]
+[connection signal="power_recieved" from="power_reciever" to="." method="_on_power_reciever_power_recieved"]
+[connection signal="power_recieved" from="green_reciever" to="." method="_on_green_reciever_power_recieved"]
