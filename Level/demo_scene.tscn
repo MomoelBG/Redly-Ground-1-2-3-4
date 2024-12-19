@@ -10116,7 +10116,7 @@ colour = 1
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 267.431, 6.46297, -215.933)
 
 [node name="Button4" parent="." instance=ExtResource("10_c04dm")]
-transform = Transform3D(0.901115, -0.43358, 0, 0.43358, 0.901115, 0, 0, 0, 1, 262.46, 7.60627, -215.891)
+transform = Transform3D(0.901115, -0.43358, 0, 0.43358, 0.901115, 0, 0, 0, 1, 262.753, 7.7378, -215.891)
 
 [connection signal="pressed" from="decor/Large Button" to="." method="_on_large_button_pressed"]
 [connection signal="released" from="decor/Large Button" to="." method="_on_large_button_released"]
