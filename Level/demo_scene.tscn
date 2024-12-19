@@ -71,7 +71,7 @@ ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
 sky_material = SubResource("ProceduralSkyMaterial_rpms1")
 
 [sub_resource type="Environment" id="Environment_j0f0b"]
-background_mode = 2
+background_mode = 5
 sky = SubResource("Sky_ccxnr")
 tonemap_mode = 2
 
@@ -3971,7 +3971,7 @@ disable_after_use = false
 shape = SubResource("BoxShape3D_n55g7")
 
 [node name="Player" parent="." instance=ExtResource("1_y6ybj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.88782, 38.3194, 16.5381)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 278.728, 8.22965, -269.086)
 grabpack_version = 1
 has_flashlight = true
 flashlight_flicker = true
