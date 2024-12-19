@@ -1,0 +1,157 @@
+# LANGUAGE translation for Redly Ground Chapter 1&2 for the following files:
+# res://Game/Menu/Menus/settings.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Redly Ground Chapter 1&2\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "[PARAMETRES]"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "CREDITS/AUDIO"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "AFFICHAGE"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "GRAPHIQUE"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "CONTROLES"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "LANGAGE"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "RETOUR"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "CREDITS"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid ""
+"Grabpack by @Detectpika\n"
+"Map by @MobStageStudio\n"
+"\n"
+"            LINKS\n"
+"\n"
+"https://www.youtube.com/\n"
+"@detectpika\n"
+"\n"
+"https://www.youtube.com/\n"
+"@MobStageStudio"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Volume\n"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Mute\n"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Resolution"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "PARAMETRES D'AFFICHAGE"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "1155x660"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "EXEMPLE BOUTON GRAPHIQUES"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Exemple Section"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "PARAMETRES GRAPHIQUE BIENTOT"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "MOUVEMENT"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "AVANCER: Z"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "GAUCHE: Q"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "RECULER: S"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "DROITE: D\n"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "SAUTER: BARE D'ESPACE"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "S'ACROUPIR: CTRL"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "GRABPACK GAUCHE: SOURIS GAUCHE"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "GRABPACK DROITE: SOURIS DROITE"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "CHANGER MAINS: 1, 2, 3, 4, 0"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "PAUSE: ECHAP"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "LANGUE"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Langues Disponibles"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "OPTIONS LANGUAGE BIENTOT"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Changer la langue"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid ""
+"FR : Français\n"
+"ES : Español\n"
+"EN: English"
+msgstr ""

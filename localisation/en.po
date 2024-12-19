@@ -1,0 +1,238 @@
+# LANGUAGE translation for Redly Ground Chapter 1&2 for the following files:
+# res://Game/Menu/Menus/title_screen.tscn
+# res://Game/Menu/Menus/settings.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Redly Ground Chapter 1&2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "Chapitre 1,2,3&4"
+msgstr "Chapter 1,2,3&4"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "‘secrets untangled’"
+msgstr ""
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid ""
+"After descending into the abyss,\n"
+"you come face to face with terrifying\n"
+"secrets that must be unraveled before\n"
+"it's too late, as both old and new\n"
+"enemies close in on you"
+msgstr ""
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "v1.0.1.2\n"
+msgstr ""
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "CONTINUER"
+msgstr "CONTINUE"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "NOUVELLE PARTIE"
+msgstr "NEW GAME"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "CHARGER"
+msgstr "REPLAY ENCOUNTER"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "PARAMETRE"
+msgstr "SETTINGS"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "QUITTER"
+msgstr "QUIT"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "[REPLAY ENCOUNTER]"
+msgstr "[REPLAY ENCOUNTER]"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "Level Name"
+msgstr ""
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "CHARGER LE CHECKPOINT"
+msgstr "LOAD CHECKPOINT"
+
+#: Game/Menu/Menus/title_screen.tscn Game/Menu/Menus/settings.tscn
+msgid "RETOUR"
+msgstr "BACK"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "CHAPITRE 1&2"
+msgstr "CHAPTER 1&2"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "CHAPITRE 3&4(en cours)"
+msgstr "CHAPTER 3&4"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "[PARAMETRES]"
+msgstr "[SETTINGS]"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "CREDITS/AUDIO"
+msgstr "CREDITS/AUDIO"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "AFFICHAGE"
+msgstr "DISPLAY"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "GRAPHIQUE"
+msgstr "GRAPHICS"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "CONTROLES"
+msgstr "CONTROLES"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "LANGAGE"
+msgstr "LANGUAGE"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "CREDITS"
+msgstr "CREDITS"
+
+#: Game/Menu/Menus/settings.tscn
+msgid ""
+"Grabpack by @Detectpika\n"
+"Map by @MobStageStudio\n"
+"\n"
+"            LINKS\n"
+"\n"
+"https://www.youtube.com/\n"
+"@detectpika\n"
+"\n"
+"https://www.youtube.com/\n"
+"@MobStageStudio"
+msgstr ""
+"Grabpack by @Detectpika\n"
+"Map by @MobStageStudio\n"
+"\n"
+"            LINKS\n"
+"\n"
+"https://www.youtube.com/\n"
+"@detectpika\n"
+"\n"
+"https://www.youtube.com/\n"
+"@MobStageStudio"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Volume\n"
+msgstr "Volume\n"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Mute\n"
+msgstr "Mute\n"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Resolution"
+msgstr "Display"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "PARAMETRES D'AFFICHAGE"
+msgstr "DISPLAY SETTINGS"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "1155x660"
+msgstr "1155x660"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "EXEMPLE BOUTON GRAPHIQUES"
+msgstr "EXAMPLE BUTTON GRAPHICS"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Exemple Section"
+msgstr "Section Exemple"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "PARAMETRES GRAPHIQUE BIENTOT"
+msgstr "GRAPHICS SETTINGS SOON"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "MOUVEMENT"
+msgstr "MOUVEMENT"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "AVANCER: Z"
+msgstr "FORWARD: Z"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "GAUCHE: Q"
+msgstr "LEFT: Q"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "RECULER: S"
+msgstr "BACK: S"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "DROITE: D\n"
+msgstr "RIGHT: D\n"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "SAUTER: BARE D'ESPACE"
+msgstr "JUMP: SPACE"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "S'ACROUPIR: CTRL"
+msgstr "CROUTCH: CTRL"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "GRABPACK GAUCHE: SOURIS GAUCHE"
+msgstr "GRABPACK LEFT: MOUSE LEFT"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "GRABPACK DROITE: SOURIS DROITE"
+msgstr "GRABPACK RIGHT: MOUSE RIGHT"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "CHANGER MAINS: 1, 2, 3, 4, 0"
+msgstr "SWAP HAND: 1, 2, 3, 4, 0"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "PAUSE: ECHAP"
+msgstr "PAUSE: ESC"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "LANGUE"
+msgstr "LANGUAGE"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Langues Disponibles"
+msgstr "LANGUAGE AVAILABLE"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "OPTIONS LANGUAGE BIENTOT"
+msgstr ""
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Changer la langue"
+msgstr "Change language"
+
+#: Game/Menu/Menus/settings.tscn
+msgid ""
+"FR : Français\n"
+"ES : Español\n"
+"EN: English"
+msgstr ""
+"FR : Français\n"
+"ES : Español\n"
+"EN: English"

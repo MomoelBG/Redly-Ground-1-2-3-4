@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tram roller coaster
+* source:	https://sketchfab.com/3d-models/tram-roller-coaster-980dbe1e71284b219915c5cc4cd9caca
+* author:	randum (https://sketchfab.com/randum)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tram roller coaster" (https://sketchfab.com/3d-models/tram-roller-coaster-980dbe1e71284b219915c5cc4cd9caca) by randum (https://sketchfab.com/randum) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

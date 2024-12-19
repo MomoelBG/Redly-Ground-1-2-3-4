@@ -1,0 +1,176 @@
+# LANGUAGE translation for Redly Ground Chapter 1&2 for the following files:
+# res://Game/Menu/Menus/settings.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Redly Ground Chapter 1&2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "[PARAMETRES]"
+msgstr "[PARAMETRES]"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "CREDITS/AUDIO"
+msgstr "CREDITS/AUDIO"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "AFFICHAGE"
+msgstr "AFFICHAGEc"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "GRAPHIQUE"
+msgstr "GRAPHIQUE"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "CONTROLES"
+msgstr "CONTROLES"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "LANGAGE"
+msgstr "LANGAGE"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "RETOUR"
+msgstr "RETOUR"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "CREDITS"
+msgstr "CREDITS"
+
+#: Game/Menu/Menus/settings.tscn
+msgid ""
+"Grabpack by @Detectpika\n"
+"Map by @MobStageStudio\n"
+"\n"
+"            LINKS\n"
+"\n"
+"https://www.youtube.com/\n"
+"@detectpika\n"
+"\n"
+"https://www.youtube.com/\n"
+"@MobStageStudio"
+msgstr ""
+"Grabpack de @Detectpika\n"
+"Map de @MobStageStudio\n"
+"\n"
+"            LIENS\n"
+"\n"
+"https://www.youtube.com/\n"
+"@detectpika\n"
+"\n"
+"https://www.youtube.com/\n"
+"@MobStageStudio"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Volume\n"
+msgstr "Volume\n"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Mute\n"
+msgstr "Muet\n"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Resolution"
+msgstr "Resolution"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "PARAMETRES D'AFFICHAGE"
+msgstr "PARAMETRES D'AFFICHAGE"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "1155x660"
+msgstr "1155x660"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "EXEMPLE BOUTON GRAPHIQUES"
+msgstr "EXEMPLE BOUTON GRAPHIQUES"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Exemple Section"
+msgstr "Exemple Section"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "PARAMETRES GRAPHIQUE BIENTOT"
+msgstr "PARAMETRES GRAPHIQUE BIENTOT"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "MOUVEMENT"
+msgstr "MOUVEMENT"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "AVANCER: Z"
+msgstr "AVANCER: Z"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "GAUCHE: Q"
+msgstr "GAUCHE: Q"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "RECULER: S"
+msgstr "RECULER: S"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "DROITE: D\n"
+msgstr "DROITE: D\n"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "SAUTER: BARE D'ESPACE"
+msgstr "SAUTER: BARE D'ESPACE"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "S'ACROUPIR: CTRL"
+msgstr "S'ACROUPIR: CTRL"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "GRABPACK GAUCHE: SOURIS GAUCHE"
+msgstr "GRABPACK GAUCHE: SOURIS GAUCHE"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "GRABPACK DROITE: SOURIS DROITE"
+msgstr "GRABPACK DROITE: SOURIS DROITE"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "CHANGER MAINS: 1, 2, 3, 4, 0"
+msgstr "CHANGER MAINS: 1, 2, 3, 4, 0"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "PAUSE: ECHAP"
+msgstr "PAUSE: ECHAP"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "LANGUE"
+msgstr "LANGUE"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Langues Disponibles"
+msgstr "Langues Disponibles"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "OPTIONS LANGUAGE BIENTOT"
+msgstr "OPTIONS LANGUAGE BIENTOT"
+
+#: Game/Menu/Menus/settings.tscn
+msgid "Changer la langue"
+msgstr "Changer la langue"
+
+#: Game/Menu/Menus/settings.tscn
+msgid ""
+"FR : Français\n"
+"ES : Español\n"
+"EN: English"
+msgstr ""
+"FR : Français\n"
+"ES : Español\n"
+"EN: English"

@@ -1,0 +1,89 @@
+# LANGUAGE translation for Redly Ground Chapter 1&2 for the following files:
+# res://Game/Menu/Menus/loading_screen.tscn
+# res://Game/Menu/Menus/title_screen.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Redly Ground Chapter 1&2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "Chapitre 1,2,3&4"
+msgstr "Chapitre 1,2,3&4"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "‘secrets untangled’"
+msgstr "‘secrets untangled’"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid ""
+"After descending into the abyss,\n"
+"you come face to face with terrifying\n"
+"secrets that must be unraveled before\n"
+"it's too late, as both old and new\n"
+"enemies close in on you"
+msgstr ""
+"After descending into the abyss,\n"
+"you come face to face with terrifying\n"
+"secrets that must be unraveled before\n"
+"it's too late, as both old and new\n"
+"enemies close in on you"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "v1.0.1.2\n"
+msgstr "v1.0.1.2\n"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "CONTINUER"
+msgstr "CONTINUER"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "NOUVELLE PARTIE"
+msgstr "NOUVELLE PARTIE"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "CHARGER"
+msgstr "CHARGER"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "PARAMETRE"
+msgstr "PARAMETRE"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "QUITTER"
+msgstr "QUITTER"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "[REPLAY ENCOUNTER]"
+msgstr "[REPLAY ENCOUNTER]"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "Level Name"
+msgstr "Level Name"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "CHARGER LE CHECKPOINT"
+msgstr "CHARGER LE CHECKPOINT"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "RETOUR"
+msgstr "RETOUR"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "CHAPITRE 1&2"
+msgstr "CHAPITRE 1&2"
+
+#: Game/Menu/Menus/title_screen.tscn
+msgid "CHAPITRE 3&4(en cours)"
+msgstr "CHAPITRE 3&4(en cours)"

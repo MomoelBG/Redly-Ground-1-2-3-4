@@ -1,0 +1,8 @@
+Model Information:
+* title:	Poppy Playtime Controls Panel Pack C
+* source:	https://sketchfab.com/3d-models/poppy-playtime-controls-panel-pack-c-2cb12de731ac49d2a92db5c5fdd2dc4b
+* author:	STHModels (https://sketchfab.com/STHModels)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
