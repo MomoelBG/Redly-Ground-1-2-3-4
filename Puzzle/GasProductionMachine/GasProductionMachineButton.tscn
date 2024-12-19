@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://d41pj0gjgs4h"]
+[gd_scene load_steps=7 format=3 uid="uid://d41pj0gjgs4h"]
 
 [ext_resource type="AudioStream" uid="uid://301vxfc70suv" path="res://Puzzle/Button/SFX/SW_GPZ_Button.wav" id="1_c7xy3"]
+[ext_resource type="Script" path="res://Puzzle/GasProductionMachine/gas_production_machine_button.gd" id="1_n6yq5"]
 
 [sub_resource type="Animation" id="Animation_imyk0"]
 resource_name = "press"
@@ -39,8 +40,12 @@ _data = {
 "press": SubResource("Animation_imyk0")
 }
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_g0xpi"]
+size = Vector3(0.472656, 0.352295, 0.427734)
+
 [node name="SM_GasproductionMachine_Button_A" type="Node3D"]
 transform = Transform3D(18.0659, 0, 0, 0, -2.94331e-06, 18.0659, 0, -18.0659, -2.94331e-06, 0, 0, -79.1236)
+script = ExtResource("1_n6yq5")
 
 [node name="press" type="AudioStreamPlayer3D" parent="."]
 transform = Transform3D(0.055353, 0, 0, 0, 0.055353, 1.77636e-15, 0, -1.77636e-15, 0.055353, 0, -4.83591, 1.30644)
@@ -50,3 +55,36 @@ stream = ExtResource("1_c7xy3")
 libraries = {
 "": SubResource("AnimationLibrary_25vmt")
 }
+
+[node name="detL" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1.59498, -0.5, 0, 0.920862, 0.866026, 0, -5.20387, 1.05564)
+collision_layer = 8
+collision_mask = 8
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="detL"]
+transform = Transform3D(1.7962, 0, 0, 0, 1.30172, -2.98023e-08, 0, 1.19209e-07, 1.77235, 0, 0.300824, 0.323761)
+shape = SubResource("BoxShape3D_g0xpi")
+
+[node name="detR" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.94713, 1.42)
+collision_layer = 16
+collision_mask = 16
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="detR"]
+transform = Transform3D(1.7962, 0, 0, 0, 2.07621, -0.886176, 0, 1.1987, 1.5349, 0, 0.0611861, 0.193043)
+shape = SubResource("BoxShape3D_g0xpi")
+
+[node name="item_det" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.94713, 1.42)
+collision_layer = 128
+collision_mask = 128
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="item_det"]
+transform = Transform3D(1.7962, 0, 0, 0, 2.07621, -0.886176, 0, 1.1987, 1.5349, 0, 0.0611861, 0.193042)
+shape = SubResource("BoxShape3D_g0xpi")
+
+[node name="markL" type="Marker3D" parent="."]
+transform = Transform3D(-1.88031e-07, 7.00829e-07, -4.30165, -2.15083, 3.72534, 7.00951e-07, 3.72534, 2.15083, 1.87575e-07, -0.0604861, -4.9441, 1.54401)
+
+[node name="markR" type="Marker3D" parent="."]
+transform = Transform3D(5.64093e-07, 7.00829e-07, 4.30165, 2.15083, 3.72534, -8.88982e-07, -3.72534, 2.15083, 1.38104e-07, -0.276834, -4.9441, 1.54401)
