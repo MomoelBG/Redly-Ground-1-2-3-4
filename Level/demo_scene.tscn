@@ -71,7 +71,7 @@ ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
 sky_material = SubResource("ProceduralSkyMaterial_rpms1")
 
 [sub_resource type="Environment" id="Environment_j0f0b"]
-background_mode = 5
+background_mode = 2
 sky = SubResource("Sky_ccxnr")
 tonemap_mode = 2
 
@@ -5188,6 +5188,18 @@ use_collision = true
 size = Vector3(71.9833, 0.484701, 249.172)
 material = SubResource("StandardMaterial3D_bpvac")
 
+[node name="CSGBox3D325" type="CSGBox3D" parent="NavigationRegion3D"]
+transform = Transform3D(-4.37114e-08, 0, 0.309656, 0, 1, 0, -1, 0, -1.35355e-08, 267.975, 15.1546, -243.601)
+use_collision = true
+size = Vector3(19.6215, 0.484701, 184.037)
+material = SubResource("StandardMaterial3D_bpvac")
+
+[node name="CSGBox3D326" type="CSGBox3D" parent="NavigationRegion3D"]
+transform = Transform3D(-0.866025, 0, 0.154828, 0, 1, 0, -0.5, 0, -0.26817, 242.276, 15.1546, -238.965)
+use_collision = true
+size = Vector3(18.82, 0.484701, 74.5442)
+material = SubResource("StandardMaterial3D_bpvac")
+
 [node name="CSGBox3D305" type="CSGBox3D" parent="NavigationRegion3D"]
 transform = Transform3D(-0.707107, 0, 0.21896, 0, 1, 0, -0.707107, 0, -0.21896, 226.209, 28.998, -241.181)
 use_collision = true
@@ -6068,6 +6080,22 @@ spot_range = 21.4134
 [node name="SpotLight3D4" type="SpotLight3D" parent="light"]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 22.5474, 14.9411, -69.8334)
 spot_range = 21.4134
+
+[node name="SpotLight3D27" type="SpotLight3D" parent="light"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 243.148, 29.2369, -290.511)
+spot_range = 76.4097
+
+[node name="SpotLight3D28" type="SpotLight3D" parent="light"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 243.148, 29.2369, -261.82)
+spot_range = 76.4097
+
+[node name="SpotLight3D29" type="SpotLight3D" parent="light"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 272.194, 29.2369, -261.82)
+spot_range = 76.4097
+
+[node name="SpotLight3D30" type="SpotLight3D" parent="light"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 272.194, 29.2369, -279.096)
+spot_range = 76.4097
 
 [node name="SpotLight3D5" type="SpotLight3D" parent="light"]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 10.7628, 14.4723, -84.7741)
@@ -9823,8 +9851,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 287.319, 6.48694, -300.135)
 [connection signal="area_entered" from="puzzle/gate_closer" to="." method="_on_gate_closer_area_entered"]
 [connection signal="area_entered" from="puzzle/gate_closer2" to="." method="_on_gate_closer_2_area_entered"]
 [connection signal="area_entered" from="puzzle/hand_notify" to="." method="_on_hand_notify_area_entered"]
-[connection signal="scan_complete" from="puzzle/Blue Scanner" to="." method="_on_blue_scanner_scan_complete"]
 [connection signal="scan_complete" from="puzzle/Blue Scanner" to="." method="_on_blue_scanner_scan_complete_2"]
+[connection signal="scan_complete" from="puzzle/Blue Scanner" to="." method="_on_blue_scanner_scan_complete"]
 [connection signal="collected" from="puzzle/Grabpack Item" to="." method="_on_grabpack_item_collected"]
 [connection signal="power_recieved" from="puzzle/power_reciever" to="." method="_on_power_reciever_power_recieved"]
 [connection signal="scan_complete" from="puzzle/Blue Scanner2" to="." method="_on_blue_scanner_2_scan_complete"]
@@ -9853,8 +9881,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 287.319, 6.48694, -300.135)
 [connection signal="opened" from="Door13" to="." method="_on_door_opened"]
 [connection signal="opened" from="Door12" to="." method="_on_door_opened"]
 [connection signal="power_recieved" from="power_reciever" to="." method="_on_power_reciever_2_power_recieved"]
-[connection signal="battery_placed" from="Battery Socket" to="." method="_on_battery_socket_battery_placed"]
 [connection signal="battery_placed" from="Battery Socket" to="." method="_on_battery_socket_battery_placed_2"]
+[connection signal="battery_placed" from="Battery Socket" to="." method="_on_battery_socket_battery_placed"]
 [connection signal="battery_removed" from="Battery Socket" to="." method="_on_battery_socket_battery_removed"]
 [connection signal="scan_complete" from="systeme redly/Purple Scanner2" to="." method="_on_purple_scanner_3_scan_complete"]
 [connection signal="power_recieved" from="systeme redly/power_reciever2" to="." method="_on_power_reciever_3_power_recieved"]
