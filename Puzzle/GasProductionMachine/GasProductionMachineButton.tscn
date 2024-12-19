@@ -88,3 +88,8 @@ transform = Transform3D(-1.88031e-07, 7.00829e-07, -4.30165, -2.15083, 3.72534, 
 
 [node name="markR" type="Marker3D" parent="."]
 transform = Transform3D(5.64093e-07, 7.00829e-07, 4.30165, 2.15083, 3.72534, -8.88982e-07, -3.72534, 2.15083, 1.38104e-07, -0.276834, -4.9441, 1.54401)
+
+[connection signal="area_entered" from="detL" to="." method="_on_det_l_area_entered"]
+[connection signal="area_entered" from="detR" to="." method="_on_det_r_area_entered"]
+[connection signal="area_entered" from="item_det" to="." method="_on_item_det_area_entered"]
+[connection signal="area_exited" from="item_det" to="." method="_on_item_det_area_exited"]

@@ -27,3 +27,26 @@ func _input(event):
 			anim.play("press")
 			press.play()
 			emit_signal("pressed")
+
+func _on_item_det_area_entered(area):
+	sel = true
+
+func _on_item_det_area_exited(area):
+	sel = false
+
+
+func _on_det_l_area_entered(area):
+	if Player.l_launched and not selectedL and not selectedR:
+		get_tree().call_group("player", "_update_l_anim", "grab_coil")
+		anim.play("press")
+		press.play()
+		emit_signal("pressed")
+		selectedL = true
+
+func _on_det_r_area_entered(area):
+	if Player.r_launched and not selectedL and not selectedR:
+		get_tree().call_group("player", "_update_r_anim", "grab_coil")
+		anim.play("press")
+		press.play()
+		emit_signal("pressed")
+		selectedR = true
