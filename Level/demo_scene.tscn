@@ -62,7 +62,7 @@
 [ext_resource type="PackedScene" uid="uid://psn0dvixn0td" path="res://Puzzle/camera/camera.tscn" id="56_d46rs"]
 [ext_resource type="PackedScene" uid="uid://ctrwj6jfm28h8" path="res://Puzzle/Gates/sci-fi_gate__detailing_01_xyz_school_hw/futuredoor.tscn" id="60_2bbvn"]
 [ext_resource type="PackedScene" uid="uid://cp4gngkdjk5de" path="res://amusement_park_game_attractions_pack/AmusementPark.tscn" id="62_sbjen"]
-[ext_resource type="PackedScene" uid="uid://xkhcrp175ic0" path="res://Puzzle/GasProductionMachine/scene.tscn" id="63_ev8ru"]
+[ext_resource type="PackedScene" uid="uid://xkhcrp175ic0" path="res://Puzzle/GasProductionMachine/gazproductmachine.tscn" id="63_ev8ru"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rpms1"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
