@@ -3975,7 +3975,7 @@ disable_after_use = false
 shape = SubResource("BoxShape3D_n55g7")
 
 [node name="Player" parent="." instance=ExtResource("1_y6ybj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 278.728, 8.22965, -269.086)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 244.12, 8.22965, -222.586)
 grabpack_version = 1
 has_flashlight = true
 flashlight_flicker = true

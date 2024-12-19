@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://poiriar4ohsx"]
+[gd_scene load_steps=14 format=3 uid="uid://poiriar4ohsx"]
 
 [ext_resource type="Script" path="res://Level/demo_scene_2.gd" id="1_lnd7k"]
 [ext_resource type="PackedScene" uid="uid://cci31kuqdnklx" path="res://Puzzle/Gates/gate.tscn" id="1_yhqt0"]
@@ -9,6 +9,8 @@
 [ext_resource type="PackedScene" uid="uid://d1v0gfvuxa0ba" path="res://Puzzle/Puzzle_Basic/puzzle_pole.tscn" id="7_0lm52"]
 [ext_resource type="PackedScene" uid="uid://bechbsgfmthff" path="res://Puzzle/Green Power/green_source.tscn" id="8_n427e"]
 [ext_resource type="PackedScene" uid="uid://byxcjqdl02iud" path="res://Puzzle/Green Power/green_reciever.tscn" id="9_njg6f"]
+[ext_resource type="PackedScene" uid="uid://dbidsa4wtpsi8" path="res://Puzzle/Purple Pad/purple_panel.tscn" id="10_mu4cn"]
+[ext_resource type="PackedScene" uid="uid://dohcfwfjkeqvu" path="res://Puzzle/Scanners/PPC4scanner.tscn" id="11_j1tno"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0xgbu"]
 albedo_color = Color(0, 0, 0, 1)
@@ -240,6 +242,16 @@ transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -23.54
 [node name="green_reciever" parent="." instance=ExtResource("9_njg6f")]
 transform = Transform3D(-1, 0, 2.98023e-08, 0, 1, 0, -2.98023e-08, 0, -1, -34.1707, 8.71128, 13.03)
 play_complete_sound = true
+
+[node name="purple_panel" parent="." instance=ExtResource("10_mu4cn")]
+transform = Transform3D(-0.258819, 0, 0.965926, 0, 1, 0, -0.965926, 0, -0.258819, -27.3934, 6.46298, 0.410094)
+
+[node name="purple_panel2" parent="." instance=ExtResource("10_mu4cn")]
+transform = Transform3D(-0.5, 0, -0.866025, 0, 1, 0, 0.866025, 0, -0.5, -34.3961, 6.46298, 10.1058)
+
+[node name="PPC4scanner" parent="." instance=ExtResource("11_j1tno")]
+transform = Transform3D(-1.77198e-08, 0, -0.405381, 0, 0.405381, 0, 0.405381, 0, -1.77198e-08, -20.1183, 8.17861, 10.5422)
+powered = false
 
 [connection signal="pressed" from="Puzzles/Button5" to="." method="_on_button_5_pressed"]
 [connection signal="power_recieved" from="power_reciever" to="." method="_on_power_reciever_power_recieved"]

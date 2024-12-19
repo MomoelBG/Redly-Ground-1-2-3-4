@@ -74,7 +74,7 @@ extends Node3D
 @onready var spot3 = $light/SpotLight3D29
 @onready var spot4 = $light/SpotLight3D30
 @onready var furt2 = $"future door2"
-@onready var gate7 = $Gate24
+
 
 
 
@@ -362,4 +362,4 @@ func _on_green_scanner_6_scan_complete():
 	furt2._open()
 
 func _on_button_4_pressed():
-	gate7._open()
+	get_tree().change_scene_to_file("res://Level/demo_scene2.tscn")
