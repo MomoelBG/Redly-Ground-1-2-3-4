@@ -177,7 +177,6 @@ alignment = 0
 metadata/_edit_use_anchors_ = true
 
 [node name="Settings" parent="." instance=ExtResource("4_s8otl")]
-visible = false
 layout_mode = 1
 
 [node name="ButtonSFXPlayer" type="Node" parent="."]
