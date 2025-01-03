@@ -26,7 +26,7 @@ extends CharacterBody3D
 @export_category("Player")
 
 ##If enabled, the player starts with a grabpack
-@export var start_with_grabpack = true
+@export var start_with_grabpack = false
 ##If enabled, the player starts with a gas mask
 @export var start_with_gas_mask = false
 enum grab_version {
